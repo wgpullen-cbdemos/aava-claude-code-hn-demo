@@ -1,7 +1,10 @@
 {
   "repo": "wgpullen-cbdemos/aava-claude-code-hn-demo",
-  "new_branch": "aava-fix-test-2",
-  "azure_parent_folder": "2026_08_02_22_10_00",
-  "task_summary": "second test dispatch payload - verifying repeatability",
-  "dispatchedAt": 1785725606890
+  "base_branch": "main",
+  "new_branch": "aava-fix-2026_08_02_22_15_00",
+  "azure_parent_folder": "2026_08_02_22_15_00",
+  "container_name": "aava-anthropic-hn-demo",
+  "spec_url": "https://avaplusstorageprod.blob.core.windows.net/aava-anthropic-hn-demo/2026_08_02_22_15_00/spec-and-defect-report.md?SAS-token-placeholder",
+  "task_summary": "Fix the hardcoded ListItem.vue submission time. Add a time prop, pass it from Hot.vue/Ask.vue/Show.vue, compute a relative time string. Run npm run test:unit, write test-results.json and pr-info.md, then resume the AAVA Process.",
+  "dispatchedAt": 1785725644902
 }

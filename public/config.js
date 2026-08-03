@@ -1,0 +1,3 @@
+window.APP_CONFIG = {
+  FM_KEY: "6ae5a929-4cf5-4233-71f9-16307e6f2414",
+};

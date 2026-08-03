@@ -1,6 +1,7 @@
 {
   "repo": "wgpullen-cbdemos/aava-claude-code-hn-demo",
-  "new_branch": "aava-fix-test-1",
-  "task_summary": "test dispatch payload",
-  "dispatchedAt": 1785725577839
+  "new_branch": "aava-fix-test-2",
+  "azure_parent_folder": "2026_08_02_22_10_00",
+  "task_summary": "second test dispatch payload - verifying repeatability",
+  "dispatchedAt": 1785725606890
 }

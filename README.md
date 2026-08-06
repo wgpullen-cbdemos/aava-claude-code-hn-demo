@@ -65,3 +65,4 @@ npm run test:unit
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
+<!-- vercel git-integration test commit 2026-08-06T03:41:42Z -->

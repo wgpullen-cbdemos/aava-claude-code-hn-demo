@@ -10,6 +10,7 @@
                   :link="post.url"
                   :score="post.score"
                   :user="post.by"
+                  :time="post.time"
                   :comment_link="`https://news.ycombinator.com/item?id=${post.id}`"
                   :comment_count="post.descendants"
         />

@@ -1,10 +1,10 @@
 {
   "repo": "wgpullen-cbdemos/aava-claude-code-hn-demo",
   "base_branch": "main",
-  "new_branch": "aava-fix-2026_08_06_20_43_40",
-  "azure_parent_folder": "2026_08_06_20_43_40",
+  "new_branch": "aava-fix-2026_08_07_14_42_12",
+  "azure_parent_folder": "2026_08_07_14_42_12",
   "container_name": "aava-anthropic-hn-demo",
-  "spec_url": "https://aavaanathropic.blob.core.windows.net/aava-anthropic-hn-demo/2026_08_06_20_43_40/agent1_spec_and_defect_report.md?sv=2024-11-04&st=2026-08-06T20%3A35%3A27Z&se=2026-09-05T20%3A35%3A27Z&sr=b&sp=r&sig=9fbUcxQyK0GLuJgi0mPEEjiDjA9sBHcXOPKDXwQZJgU%3D",
+  "spec_url": "https://avaplusstorageprod.blob.core.windows.net/aava-anthropic-hn-demo/2026_08_07_14_42_12/agent1_spec_and_defect_report_sas_url.txt?se=2026-09-06T14%3A47%3A06Z&sp=r&sv=2025-05-05&sr=b&sig=ctus7C9ctgeVfugThxZGRJiPdCTjAaJD3p8uO3KjYys%3D",
   "task_summary": "Fix the hardcoded ListItem.vue submission time. Add a time prop sourced from each post's real unix timestamp field, pass it from Hot.vue, Ask.vue, and Show.vue, and compute a relative time string in ListItem.vue instead of the literal 2 hours ago string. Do not change any other behavior. After making the fix, run npm run test:unit and write the full pass/fail output to test-results.json in this same azure_parent_folder. Open a pull request against main, never push directly to main, and write the pull request URL to pr-info.md in the same folder. Only after both files are written, call the AAVA MCP tool to resume the AAVA Process at Workflow 2.",
-  "dispatchedAt": 1786049419852
+  "dispatchedAt": 1786114029577
 }

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "summary": {
+    "testSuites": "6 passed, 6 total",
+    "tests": "39 passed, 39 total",
+    "snapshots": "0 total",
+    "duration": "2.823 s"
+  },
+  "passedTests": [
+    "tests/unit/ListItem.spec.js",
+    "tests/unit/Hot.spec.js",
+    "tests/unit/Ask.spec.js",
+    "tests/unit/Show.spec.js",
+    "tests/unit/Login.spec.js",
+    "tests/unit/Nav.spec.js"
+  ],
+  "notes": "All 39 tests passed successfully. The ListItem component correctly computes relative time from unix timestamp prop."
+}

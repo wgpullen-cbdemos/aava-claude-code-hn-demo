@@ -1,10 +1,16 @@
 {
-  "repo": "wgpullen-cbdemos/aava-claude-code-hn-demo",
+  "demo": "mastercard",
+  "dispatch_kind": "remediation",
+  "repo": "wgpullen/AAVA-Projects",
   "base_branch": "main",
-  "new_branch": "aava-fix-2026_08_31_15_47_40",
-  "azure_parent_folder": "2026_08_31_15_47_40",
-  "container_name": "aava-anthropic-hn-demo",
-  "spec_url": "https://avaplusstorageprod.blob.core.windows.net/aava-anthropic-hn-demo/2026_08_31_15_47_40/agent1_spec_and_defect_report.md?se=2026-09-30T15%3A52%3A52Z&sp=r&sv=2025-05-05&sr=b&sig=TDdnVGFeYISdC/I58o2/HqXs4b2easw4WVH2dER2KnM%3D",
-  "task_summary": "Fix the hardcoded ListItem.vue submission time. Add a time prop sourced from each post's real unix timestamp field, pass it from Hot.vue, Ask.vue, and Show.vue, and compute a relative time string in ListItem.vue instead of the literal 2 hours ago string. Do not change any other behavior. After making the fix, run npm run test:unit and write the full pass/fail output to test-results.json in this same azure_parent_folder. Open a pull request against main, never push directly to main, and write the pull request URL to pr-info.md in the same folder. Only after both files are written, call the AAVA MCP tool to resume the AAVA Process at Workflow 2.",
-  "dispatchedAt": 1788191576177
+  "new_branch": "mastercard-remediation-2026_09_01_12_00_00",
+  "azure_parent_folder": "2026_09_01_12_00_00",
+  "container_name": "mastercard-agentic-trust",
+  "error_reason_code": "SCALE_IS_NOT_SUPPORTED",
+  "error_description": "Actual scale of precision: 5 is not supported for maxSingleAmount field in request body.",
+  "failed_field": "maxSingleAmount",
+  "submitted_value": "200.49375",
+  "known_constraint_text": "maxAmount and maxSingleAmount: number, up to 4 decimal places, per Mastercard's real oas_fraud.yaml\n  spec",
+  "task_summary": "testing 123",
+  "dispatchedAt": 1788312552421
 }

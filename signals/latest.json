@@ -1,16 +1,16 @@
 {
   "demo": "mastercard",
-  "dispatch_kind": "remediation",
+  "dispatch_kind": "cost_capture",
   "repo": "wgpullen/AAVA-Projects",
   "base_branch": "main",
-  "new_branch": "mastercard-remediation-2026_09_01_12_00_00",
+  "new_branch": "mastercard-cost_capture-2026_09_01_12_00_00",
   "azure_parent_folder": "2026_09_01_12_00_00",
   "container_name": "mastercard-agentic-trust",
-  "error_reason_code": "SCALE_IS_NOT_SUPPORTED",
-  "error_description": "Actual scale of precision: 5 is not supported for maxSingleAmount field in request body.",
-  "failed_field": "maxSingleAmount",
-  "submitted_value": "200.49375",
-  "known_constraint_text": "maxAmount and maxSingleAmount: number, up to 4 decimal places, per Mastercard's real oas_fraud.yaml\n  spec",
-  "task_summary": "testing 123",
-  "dispatchedAt": 1788312552421
+  "error_reason_code": "Test 123",
+  "error_description": "Test 123",
+  "failed_field": "Test 123",
+  "submitted_value": "1",
+  "known_constraint_text": "Test 123",
+  "task_summary": "Mastercard Agentic Trust run: risk-control evaluation and governed write for this run's scenario",
+  "dispatchedAt": 1788312746498
 }

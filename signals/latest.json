@@ -3,8 +3,8 @@
   "dispatch_kind": "cost_capture",
   "repo": "wgpullen/AAVA-Projects",
   "base_branch": "main",
-  "new_branch": "mastercard-cost_capture-2026_09_10_03_31_47",
-  "azure_parent_folder": "2026_09_10_03_31_47",
+  "new_branch": "mastercard-cost_capture-2026_09_10_17_44_58",
+  "azure_parent_folder": "2026_09_10_17_44_58",
   "container_name": "mastercard-agentic-trust",
   "error_reason_code": "",
   "error_description": "",
@@ -12,5 +12,5 @@
   "submitted_value": "",
   "known_constraint_text": "",
   "task_summary": "Mastercard Agentic Trust run: risk-control evaluation and governed write for this run's scenario",
-  "dispatchedAt": 1789011796838
+  "dispatchedAt": 1789062968576
 }
